@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Java:Web exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bc1c4d5-4e5c-4687-91e0-cb6227966949" name="Default Changelist" comment="" />
+    <list default="true" id="5bc1c4d5-4e5c-4687-91e0-cb6227966949" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Java_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/controller/DemandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/controller/NewProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/controller/PurchaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/controller/SalesReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/demand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/newproduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/purchase.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/salesreport.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/10faad5a-77d1-4ea7-9b9d-4e562776a2a6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/10faad5a-77d1-4ea7-9b9d-4e562776a2a6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/10faad5a-77d1-4ea7-9b9d-4e562776a2a6/storage_v2/_src_/database/sales_db.kfxzcw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/10faad5a-77d1-4ea7-9b9d-4e562776a2a6/storage_v2/_src_/database/sales_db.kfxzcw/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/DemandDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/DemandDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/DemandHibernateDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/DemandHibernateDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/PurchaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/PurchaseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/PurchaseHibernateDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/PurchaseHibernateDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Demand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Demand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Purchase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/service/DemandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/service/DemandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/service/PurchaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/service/PurchaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/DemandDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/DemandDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/DemandHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/DemandHibernateDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/ProductDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/ProductHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/ProductHibernateDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/PurchaseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/PurchaseDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/PurchaseHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/PurchaseHibernateDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/models/Demand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/models/Demand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/models/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/models/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/models/Purchase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/models/Purchase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/service/DemandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/service/DemandService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/service/PurchaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/service/PurchaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/util/HibernateSessionFactoryUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/util/HibernateSessionFactoryUtil.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,16 +111,27 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="salesReport" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Spring/testweb" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -81,12 +141,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1P6RGeGQI4ADSEkj52xkgBcEcmS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ITVDN/java-ee-materials/003_Intro_Java_EE_Servlets/003_Samples" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,6 +159,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31198537" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -107,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestController.testSalesReportBadProduct">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mystock.salesreport.Application" />
       <module name="Java" />
@@ -121,9 +195,133 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestController.testAddDemandBadDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestController" />
+      <option name="METHOD_NAME" value="testAddDemandBadDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestController.testSalesReport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestController" />
+      <option name="METHOD_NAME" value="testSalesReport" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestController.testSalesReportBadDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestController" />
+      <option name="METHOD_NAME" value="testSalesReportBadDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestController.testSalesReportBadProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestController" />
+      <option name="METHOD_NAME" value="testSalesReportBadProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Java:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_salesReport" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="46877" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Java:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8" />
+      <item itemvalue="JUnit.TestController.testAddDemandBadDate" />
+      <item itemvalue="JUnit.TestController.testSalesReport" />
+      <item itemvalue="Application.Application" />
+      <item itemvalue="JUnit.TestController.testSalesReportBadDate" />
+      <item itemvalue="JUnit.TestController.testSalesReportBadProduct" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestController.testSalesReportBadProduct" />
+        <item itemvalue="JUnit.TestController.testSalesReportBadDate" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.TestController.testSalesReport" />
+        <item itemvalue="JUnit.TestController.testAddDemandBadDate" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +329,12 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2885f571" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -151,7 +354,7 @@
       <workItem from="1565362752178" duration="618000" />
       <workItem from="1565456381339" duration="11285000" />
       <workItem from="1565543586843" duration="13652000" />
-      <workItem from="1565603872725" duration="6883000" />
+      <workItem from="1565603872725" duration="78831000" />
     </task>
     <servers />
   </component>
@@ -170,5 +373,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

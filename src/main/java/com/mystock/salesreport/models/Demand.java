@@ -1,5 +1,7 @@
 package com.mystock.salesreport.models;
 
+import com.google.gson.annotations.Expose;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -11,16 +13,20 @@ public class Demand {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @Expose
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "product_id")
     private Product product;
 
+    @Expose
     @Column(name = "amount")
     private Integer amount;
 
+    @Expose
     @Column(name = "price")
     private Integer price;
 
+    @Expose
     @Column(name = "date")
     @Temporal(TemporalType.DATE)
     private Date date;

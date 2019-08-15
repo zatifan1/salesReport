@@ -11,6 +11,6 @@ public interface DemandDAO {
     void update(Demand demand);
     void delete(Demand demand);
     Product findProductById(int id);
-    List<Demand> findDemandByProductId(int id);
+    List<Demand> findDemandByProductIdDate(String name, String date);
     List<Demand> findAll();
 }

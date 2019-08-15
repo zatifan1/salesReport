@@ -29,8 +29,8 @@ public class PurchaseService {
         PurchaseDAO.findProductById(id);
     }
 
-    public List<Purchase> findProductPurchases(int id){
-        return PurchaseDAO.findPurchaseByProductId(id);
+    public List<Purchase> findPurchases(String name, String date){
+        return PurchaseDAO.findPurchaseByProductIdDate(name, date);
     }
 
     public List<Purchase> findAllPurchases(){

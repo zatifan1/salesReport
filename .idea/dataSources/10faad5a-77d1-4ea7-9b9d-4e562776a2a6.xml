@@ -13,7 +13,7 @@
     <database id="3" parent="1" name="sales_db">
       <ObjectId>16401</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>607</IntrospectionStateNumber>
+      <IntrospectionStateNumber>649</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|16418|16420|1
 sequence|table|16427|16429|1
@@ -123,7 +123,7 @@ sequence|table|16440|16442|1
       <Comment>standard public schema</Comment>
       <StateNumber>351</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>608</IntrospectionStateNumber>
+      <IntrospectionStateNumber>650</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -327,18 +327,19 @@ sequence|table|16440|16442|1
       <StateNumber>582</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <index id="51" parent="37" name="products_pk">
+    <index id="51" parent="37" name="products_name_uindex">
+      <ObjectId>16466</ObjectId>
+      <StateNumber>648</StateNumber>
+      <ColNames>&#x1b;upper(name::text)</ColNames>
+      <Unique>1</Unique>
+      <FunctionBased>1</FunctionBased>
+    </index>
+    <index id="52" parent="37" name="products_pk">
       <ObjectId>16424</ObjectId>
       <StateNumber>582</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
-    </index>
-    <index id="52" parent="37" name="products_name_uindex">
-      <ObjectId>16426</ObjectId>
-      <StateNumber>583</StateNumber>
-      <ColNames>name</ColNames>
-      <Unique>1</Unique>
     </index>
     <key id="53" parent="37" name="products_pk">
       <ObjectId>16425</ObjectId>

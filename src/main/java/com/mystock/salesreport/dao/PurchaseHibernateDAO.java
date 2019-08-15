@@ -7,6 +7,10 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 public class PurchaseHibernateDAO implements PurchaseDAO {
@@ -49,13 +53,24 @@ public class PurchaseHibernateDAO implements PurchaseDAO {
         return product;
     }
 
-    public List<Purchase> findPurchaseByProductId(int id) {
+    public List<Purchase> findPurchaseByProductIdDate(String name, String date) {
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
-        Query query = session.createQuery("From Purchase WHERE Product_id = :id");
-        query.setParameter("id", id);
-        List<Purchase> demands = (List<Purchase>) query.list();
+        Transaction transaction = session.beginTransaction();
+        DateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        Date startDate = null;
+        try {
+            startDate = sdf.parse(date);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        Query query = session.createQuery("FROM Purchase WHERE date <= :date AND Product_id = (SELECT id FROM Product WHERE name = :name)");
+        query.setParameter("name", name);
+        query.setDate("date", startDate);
+        List<Purchase> purchases = (List<Purchase>) query.list();
+        transaction.commit();
         session.close();
-        return demands;
+        return purchases;
     }
 
     public List<Purchase> findAll() {

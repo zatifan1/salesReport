@@ -11,6 +11,6 @@ public interface PurchaseDAO {
     void update(Purchase purchase);
     void delete(Purchase purchase);
     Product findProductById(int id);
-    List<Purchase> findPurchaseByProductId(int id);
+    List<Purchase> findPurchaseByProductIdDate(String name, String date);
     List<Purchase> findAll();
 }

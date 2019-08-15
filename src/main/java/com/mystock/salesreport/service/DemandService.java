@@ -29,7 +29,7 @@ public class DemandService {
         demandDao.findProductById(id);
     }
 
-    public List<Demand> findProductDemands(int id) {return demandDao.findDemandByProductId(id);}
+    public List<Demand> findDemands(String name, String date) {return demandDao.findDemandByProductIdDate(name, date);}
 
     public List<Demand> findAllDemands(){
         return demandDao.findAll();

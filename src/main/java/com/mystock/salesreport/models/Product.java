@@ -1,5 +1,7 @@
 package com.mystock.salesreport.models;
 
+import com.google.gson.annotations.Expose;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -11,29 +13,21 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @Expose
     @Column(name = "name")
     private String name;
 
+    @Expose(deserialize = false)
     @Column(name = "amount")
     private Integer amount;
 
-    @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Purchase> purchases;
-
-    @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Demand> demands;
-
     public Product() {
+        amount = 0;
     }
 
     public Product(String name) {
         this.name = name;
         amount = 0;
-    }
-
-    public Product(String name, Integer amount) {
-        this.name = name;
-        this.amount = amount;
     }
 
     public Integer getId() {
@@ -58,22 +52,6 @@ public class Product {
 
     public void setAmount(Integer amount) {
         this.amount = amount;
-    }
-
-    public List<Purchase> getPurchases() {
-        return purchases;
-    }
-
-    public void setPurchases(List<Purchase> purchases) {
-        this.purchases = purchases;
-    }
-
-    public List<Demand> getDemands() {
-        return demands;
-    }
-
-    public void setDemands(List<Demand> demands) {
-        this.demands = demands;
     }
 
     @Override

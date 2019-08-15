@@ -9,6 +9,10 @@ import org.hibernate.Transaction;
 import org.hibernate.criterion.Restrictions;
 import org.hibernate.query.Query;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 public class DemandHibernateDAO implements DemandDAO {
@@ -51,11 +55,22 @@ public class DemandHibernateDAO implements DemandDAO {
         return product;
     }
 
-    public List<Demand> findDemandByProductId(int id) {
+    public List<Demand> findDemandByProductIdDate(String name, String date) {
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
-        Query query = session.createQuery("From Demand WHERE Product_id = :id");
-        query.setParameter("id", id);
+        Transaction transaction = session.beginTransaction();
+        DateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        Date startDate = null;
+        try {
+            startDate = sdf.parse(date);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        Query query = session.createQuery("FROM Demand WHERE date <= :date AND Product_id = (SELECT id FROM Product WHERE name = :name)");
+        query.setParameter("name", name);
+        query.setDate("date", startDate);
         List<Demand> demands = (List<Demand>) query.list();
+        transaction.commit();
         session.close();
         return demands;
     }
