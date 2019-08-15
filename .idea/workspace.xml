@@ -2,54 +2,17 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Java:Web exploded" />
+      <artifact name="Java:Web" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bc1c4d5-4e5c-4687-91e0-cb6227966949" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Java_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/controller/DemandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/controller/NewProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/controller/PurchaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/controller/SalesReportController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/demand.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/newproduct.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/purchase.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/salesreport.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/10faad5a-77d1-4ea7-9b9d-4e562776a2a6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/10faad5a-77d1-4ea7-9b9d-4e562776a2a6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/10faad5a-77d1-4ea7-9b9d-4e562776a2a6/storage_v2/_src_/database/sales_db.kfxzcw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/10faad5a-77d1-4ea7-9b9d-4e562776a2a6/storage_v2/_src_/database/sales_db.kfxzcw/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_Web.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/DemandDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/DemandDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/DemandHibernateDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/DemandHibernateDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/PurchaseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/PurchaseDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/PurchaseHibernateDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/dao/PurchaseHibernateDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Demand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Demand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/models/Purchase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/service/DemandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/service/DemandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/service/PurchaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mystock/salesreport/service/PurchaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Java_Web_exploded/WEB-INF/classes/com/mystock/salesreport/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Java_Web_exploded/WEB-INF/classes/com/mystock/salesreport/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/DemandDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/DemandDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/DemandHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/DemandHibernateDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/ProductDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/ProductDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/ProductHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/ProductHibernateDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/PurchaseDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/PurchaseDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/PurchaseHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/dao/PurchaseHibernateDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/models/Demand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/models/Demand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/models/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/models/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/models/Purchase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/models/Purchase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/service/DemandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/service/DemandService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/service/PurchaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/service/PurchaseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/util/HibernateSessionFactoryUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/util/HibernateSessionFactoryUtil.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +122,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31198537" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -181,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestController.testSalesReportBadProduct">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mystock.salesreport.Application" />
       <module name="Java" />
@@ -308,12 +271,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 8" />
+      <item itemvalue="Application.Application" />
       <item itemvalue="JUnit.TestController.testAddDemandBadDate" />
       <item itemvalue="JUnit.TestController.testSalesReport" />
-      <item itemvalue="Application.Application" />
       <item itemvalue="JUnit.TestController.testSalesReportBadDate" />
       <item itemvalue="JUnit.TestController.testSalesReportBadProduct" />
+      <item itemvalue="Tomcat Server.Tomcat 8" />
     </list>
     <recent_temporary>
       <list>
@@ -354,7 +317,8 @@
       <workItem from="1565362752178" duration="618000" />
       <workItem from="1565456381339" duration="11285000" />
       <workItem from="1565543586843" duration="13652000" />
-      <workItem from="1565603872725" duration="78831000" />
+      <workItem from="1565603872725" duration="80218000" />
+      <workItem from="1565895477182" duration="201000" />
     </task>
     <servers />
   </component>
