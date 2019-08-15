@@ -1,0 +1,130 @@
+FORMAT: 1A
+HOST: http://example.com
+
+# Прибыль товара
+
+API для подсчета прибыли товара на определенную дату
+
+## Сценарий работы
+-Создаем товар
+
+-Создаем покупку
+
+-Создаем продажу
+
+-Считаем прибыль товара на определенную дату
+##Структура ответа
+`result` - (boolean) при успешном выполнении вернет true, иначе false
+
+`message` - (String) при успешном выполнении вернет "ОК" либо прибыль товара, иначе сообщение ошибки
+
+## Товар [/questions]
+
+### Создание товара [POST /newproduct]
+Запрос на создание товара
+
++ Request (application/json)
+
+    + Headers
+    
+    + Attributes
+        + name: Car (string) - наименование товара
+        
+### Вернуть список товаров [GET /newproduct]
+Запрос на создание списка товаров
+
++ Response 200 (application/json)
+
+    + Headers
+    
+    + Attributes
+        + name: "Spoon" (string) - наименование товара
+        + amount: 0 (number) - количество товара
+    + Body
+        [
+        {"name":"Spoon","amount":0},
+        {"name":"Phone","amount":0}
+        ]
+                
+### Создание покупки [POST /purchase]
+Запрос на создание покупки
+
++ Request (application/json)
+
+    + Headers
+    
+    + Attributes
+        + productName: Car (string) - наименование товара
+        + amount: 3 (number) - количество купленного товара
+        + price: 1000 (number) - цена товара, price > 0
+        + date: `2019-10-10` (string) - дата, "yyyy-mm-dd" строго в таком формате
+
+### Вернуть список покупок [GET /purchase]
+Запрос на создание списка покупок
+
++ Response 200 (application/json)
+
+    + Headers
+    
+    + Attributes
+        + product(object)
+            + name: "Spoon" (string) - наименование товара
+            + amount: 0 (number) - количество товара
+        + amount: 3 (number) - количество купленного товара
+        + price: 1000 (number) - цена товара, price > 0
+        + date: `2019-10-10` (string) - дата, "yyyy-mm-dd" строго в таком формате
+
+    + Body
+        [
+        {"product":{"name":"Car","amount":4},"amount":10,"price":20000,"date":"2019-01-20"},
+        {"product":{"name":"Car","amount":4},"amount":5,"price":23000,"date":"2019-03-20"}
+        ]
+
+### Создание продажи [POST /demand]
+Запрос на создание продажи
+
++ Request (application/json)
+
+    + Headers
+    
+    + Attributes
+        + productName: Car (string) - наименование товара
+        + amount: 2 (number) - количество купленного товара
+        + price: 1500 (number) - цена товара, price > 0
+        + date: `2019-10-10` (string) - дата, "yyyy-mm-dd" строго в таком формате
+
+
+### Вернуть список продаж [GET /demand]
+Запрос на создание списка продаж
+
++ Response 200 (application/json)
+
+    + Headers
+    
+    + Attributes
+        + product(object)
+            + name: "Spoon" (string) - наименование товара
+            + amount: 0 (number) - количество товара
+        + amount: 3 (number) - количество купленного товара
+        + price: 1000 (number) - цена товара, price > 0
+        + date: `2019-10-10` (string) - дата, "yyyy-mm-dd" строго в таком формате
+
+    + Body
+        [
+        {"product":{"name":"Car","amount":4},"amount":10,"price":20000,"date":"2019-01-20"},
+        {"product":{"name":"Car","amount":4},"amount":5,"price":23000,"date":"2019-03-20"}
+        ]
+
+### Расчет прибыли [GET /salesreport?productName=Car&date=2019-12-12]
+Запрос расчета прибыли
+    
++ Parameters
+    + productName (required, string, `Car`) - наименованиетовара
+    + date (required, string, `2019-12-12`) - дата
+
+
++ Response 200 (application/json)
+
+    + Attributes
+        + result: true (boolean) - результат выполнения
+        + message: 268000 (string) - прибыль
