@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Java:Web" />
+      <artifact name="Java:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bc1c4d5-4e5c-4687-91e0-cb6227966949" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Java_Web.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Java_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Java_Web_exploded/WEB-INF/classes/com/mystock/salesreport/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Java_Web_exploded/WEB-INF/classes/com/mystock/salesreport/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mystock/salesreport/Application.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -319,6 +315,8 @@
       <workItem from="1565543586843" duration="13652000" />
       <workItem from="1565603872725" duration="80218000" />
       <workItem from="1565895477182" duration="201000" />
+      <workItem from="1565897463332" duration="128000" />
+      <workItem from="1565899077460" duration="594000" />
     </task>
     <servers />
   </component>
